@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyntraMind Fashion Demand Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="myntralogo.png" alt="Myntra Logo" id="logo">
+        MYNTRAMIDE</div>
+        <nav>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#forecast">Forecast</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#team">Team</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="bg-image" id="home-bg">
+            <div class="content">
+                <h1>Welcome to MyntraMind</h1>
+                <p>Leading the future of fashion with advanced demand forecasting.</p>
+            </div>
+        </div>
+    </section>
+    <section id="forecast">
+        <h2>Fashion Demand Forecast</h2>
+        <div class=" bd -image"></div>
+        <form id="forecast-form">
+            <section id="forecast">
+                <h2>Forecast Input</h2>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category" placeholder="e.g., Shoes, Jackets" required>
+            </div>
+      
+                
+                   
+                       
+        
+                        <div class="form-group">
+                            <label for="hour">Hour:</label>
+                            <input type="number" id="hour" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="temperature">Temperature (°C):</label>
+                            <input type="number" id="temperature" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="humidity">Humidity (%):</label>
+                            <input type="number" id="humidity" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="visibility">Visibility (km):</label>
+                            <input type="number" id="visibility" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="sku">SKU:</label>
+                            <input type="number" id="sku" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="wind-speed">Wind Speed (km/h):</label>
+                            <input type="number" id="wind-speed" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="rainfall">Rainfall (mm):</label>
+                            <input type="number" id="rainfall" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="snowfall">Snowfall (cm):</label>
+                            <input type="number" id="snowfall" required>
+                        </div>
+        
+                        
+            <button type="submit">Get Forecast</button>
+        </form>
+        <div id="results"></div>
+        <canvas id="forecast-chart"></canvas>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="contact-output"></div>
+    </section>
+    <section id="team">
+        <h2>About the Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <h3>SMITA SINGH</h3>
+                <p>Team Leader-Backend DEVELOPER</p>
+            </div>
+            <div class="team-member">
+                <h3>SNEHA JAISWAL</h3>
+                <p>Fronted DEVELOPER</p>
+            </div>
+            <div class="team-member">
+                <h3>SUNIDHI SINGH</h3>
+                <p> DEVELOPER</p>
+            </div>
+            <!-- Add more team members as needed -->
+
+        </div>
+                 
+    </section>
+    
+    </section>
+    <footer>
+        <p>&copy; 2024 MyntraMind. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
