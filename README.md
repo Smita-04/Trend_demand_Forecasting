@@ -29,3 +29,5 @@ The model was used to make real-time predictions based on user input.
 The firms could employ an ML-based approach to forecast the demand for achieving a higher level of accuracy. We showed that the higher level of demand forecast accuracy translates into both improved operational and financial performance outcomes
 Forecasting the impact of sudden change in demand can help businesses understand the potential implications of any external factors that may influence their operations. This knowledge can be used to develop strategies that allow businesses to remain competitive and respond quickly to sudden changes in demand.
 
+![image](https://github.com/user-attachments/assets/adb96e19-3790-4862-a560-875670c5cb40)   ![image](https://github.com/user-attachments/assets/82777b47-c29e-4622-9b05-d705b662344d)
+
