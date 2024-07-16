@@ -24,6 +24,7 @@ Save scaling parameters for deployment consistency.
 Apply saved scaling during the prediction.
 Transform the user data for model compatibility.
 The model was used to make real-time predictions based on user input.
+## Project Snapshot
 ![image](https://github.com/user-attachments/assets/82777b47-c29e-4622-9b05-d705b662344d)
 ![image](https://github.com/user-attachments/assets/adb96e19-3790-4862-a560-875670c5cb40)
 
