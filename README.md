@@ -6,24 +6,24 @@ Accurate demand forecasting serves as the cornerstone of business success, wield
 
 # Strategic Approach and Workflow Diagram
 ![image](https://github.com/user-attachments/assets/a7b0d917-7de6-419c-ae03-6c8191b62059)
-1. Load essential libraries for data processing and model building.
-2.Import dataset for analysis.
-3.The data structure and content were analyzed to identify patterns and anomalies
-4.The relationships between the features are calculated
-5. highly correlated features to improve the model accuracy.
-6.Transform skewed data for normalization
-7.Convert categorical data into a numerical format.
-8. The data were divided into training and testing sets.
-9.Standardize data for consistent model performance.
-10.Development of a predictive model using training data.
-11.Assessment of model performance using evaluation metrics.
-12.Different models are compared to identify the best performer.
-13.Optimizing parameters for Random Forest and XGBoost models.
-14.The most accurate model should be stored for future use.
-15.Save scaling parameters for deployment consistency.
-16.Apply saved scaling during the prediction.
-17.Transform the user data for model compatibility.
-18.The model was used to make real-time predictions based on user input.
+ Load essential libraries for data processing and model building.
+Import dataset for analysis.
+The data structure and content were analyzed to identify patterns and anomalies
+The relationships between the features are calculated
+ highly correlated features to improve the model accuracy.
+Transform skewed data for normalization
+Convert categorical data into a numerical format.
+The data were divided into training and testing sets.
+Standardize data for consistent model performance.
+Development of a predictive model using training data.
+Assessment of model performance using evaluation metrics.
+Different models are compared to identify the best performer.
+Optimizing parameters for Random Forest and XGBoost models.
+The most accurate model should be stored for future use.
+Save scaling parameters for deployment consistency.
+Apply saved scaling during the prediction.
+Transform the user data for model compatibility.
+The model was used to make real-time predictions based on user input.
 
 # Conclusions
 The firms could employ an ML-based approach to forecast the demand for achieving a higher level of accuracy. We showed that the higher level of demand forecast accuracy translates into both improved operational and financial performance outcomes
