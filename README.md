@@ -33,3 +33,4 @@ The firms could employ an ML-based approach to forecast the demand for achieving
 Forecasting the impact of sudden change in demand can help businesses understand the potential implications of any external factors that may influence their operations. This knowledge can be used to develop strategies that allow businesses to remain competitive and respond quickly to sudden changes in demand.
 
 
+
